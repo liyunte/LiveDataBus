@@ -12,6 +12,9 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ *
+ */
 public final class LiveDataBus {
     private final Map<String, BusMutableLiveData<Object>> bus;
 
